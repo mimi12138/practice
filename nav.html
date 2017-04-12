@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <title>css3实现页面平滑过渡</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link type="text/css" href="css/normalize.css" rel="stylesheet">
+    <link type="text/css" href="css/nav.css" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+    <div class="st_container">
+        <!--nav begin-->
+        <input type="radio" name="radio-set" checked="checked" id="st_control_1">
+        <a href="#st_panel_1">nav1</a>
+        <input type="radio" name="radio-set" id="st_control_2">
+        <a href="#st_panel_2">nav2</a>
+        <input type="radio" name="radio-set" id="st_control_3">
+        <a href="#st_panel_3">nav3</a>
+        <input type="radio" name="radio-set" id="st_control_4">
+        <a href="#st_panel_4">nav4</a>
+        <input type="radio" name="radio-set" id="st_control_5">
+        <a href="#st_panel_5">nav5</a>
+        <!--nav end-->
+        <!--content begin-->
+        <div class="st_scroll">
+            <section class="st_panel" id="st_panel_1">
+                <div class="st_desc" data-icon="H"></div>
+                <h2>第一部分</h2>
+                <p>我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容</p>
+            </section>
+            <section class="st_panel st_color" id="st_panel_2">
+                <div class="st_desc" data-icon="2"></div>
+                <h2>第二部分</h2>
+                <p>我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容</p>
+            </section>
+            <section class="st_panel" id="st_panel_3">
+                <div class="st_desc" data-icon="B"></div>
+                <h2>第三部分</h2>
+                <p>我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容</p>
+            </section>
+            <section class="st_panel st_color" id="st_panel_4">
+                <div class="st_desc" data-icon="x"></div>
+                <h2>第四部分</h2>
+                <p>我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容</p>
+            </section>
+            <section class="st_panel" id="st_panel_5">
+                <div class="st_desc" data-icon="d"></div>
+                <h2>第五部分</h2>
+                <p>我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容</p>
+            </section>
+        </div>
+    </div>
+</div>
+</body>
+</html>
